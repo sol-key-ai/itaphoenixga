@@ -134,6 +134,7 @@
             justify-content: center;
             text-align: center;
             color: var(--white);
+            padding-top: 80px; /* Add padding to account for fixed header */
         }
 
         .hero-content {
@@ -400,45 +401,7 @@
             transform: translateY(-2px);
         }
 
-        /* Service Areas Styling */
-        .service-areas {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 1rem;
-            margin-top: 1.5rem;
-            padding: 1.5rem;
-            background: rgba(255, 255, 255, 0.15);
-            border-radius: 10px;
-            backdrop-filter: blur(10px);
-            border: 2px solid rgba(255, 255, 255, 0.3);
-        }
 
-        .area {
-            color: var(--white);
-            font-weight: 700;
-            font-size: 1.1rem;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-            padding: 0.5rem 1rem;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 25px;
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            transition: all 0.3s ease;
-        }
-
-        .area:hover {
-            background: rgba(255, 255, 255, 0.3);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        }
-
-        .separator {
-            color: var(--light-blue);
-            font-weight: 700;
-            font-size: 1.2rem;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-        }
 
         /* Contact Section */
         .contact {
@@ -737,17 +700,7 @@
         <div class="container">
             <div class="section-title">
                 <h2>Proudly Serving the Greater Atlanta Area</h2>
-                <div class="service-areas">
-                    <span class="area">Peachtree Corners</span>
-                    <span class="separator">|</span>
-                    <span class="area">Atlanta</span>
-                    <span class="separator">|</span>
-                    <span class="area">Marietta</span>
-                    <span class="separator">|</span>
-                    <span class="area">Roswell</span>
-                    <span class="separator">|</span>
-                    <span class="area">And Surrounding Communities</span>
-                </div>
+                <p style="color: var(--white); font-weight: 600; background: rgba(0,0,0,0.3); padding: 0.5rem 1rem; border-radius: 5px; display: inline-block;">Peachtree Corners | Atlanta | Marietta | Roswell | And Surrounding Communities</p>
             </div>
             <div class="testimonial">
                 <p>"ITA Phoenix & Fenelon are the highest quality & utmost professional pool remodeling / renovation service in Atlanta! Simply Amazing Work!!!"</p>
